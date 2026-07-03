@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://vail-ucla.github.io/sitemap.xml
+Sitemap: https://vitpkusz.github.io/vit.pkusz.github.io/sitemap.xml
