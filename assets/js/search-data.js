@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-home",
-    title: "Home",
+    id: "nav-lab",
+    title: "Lab",
     section: "Navigation",
     handler: () => {
       window.location.href = "/vit.pkusz.github.io/";
@@ -117,6 +117,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-zhihao-zhao-won-the-qualcomm-innovation-fellowship-2026",
           title: 'Zhihao Zhao won the Qualcomm Innovation Fellowship 2026.',
+          description: "",
+          section: "News",},{id: "news-two-papers-are-accepted-to-eccv-2026-congratulations-to-ziyi-wang-jiaying-lin",
+          title: 'Two papers are accepted to ECCV 2026. Congratulations to Ziyi Wang, Jiaying Lin!...',
+          description: "",
+          section: "News",},{id: "news-four-students-earned-their-master-s-degrees-congratulations-to-jiajie-liu-jinyan-zhang-jingting-liu-di-wang",
+          title: 'Four students earned their Master’s degrees. Congratulations to Jiajie Liu, Jinyan Zhang, Jingting...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
