@@ -110,7 +110,7 @@ Your news content here.
 author={Wang, Ziyi* and Wang, Xinshun* and Liu, Mengyuan}
 ```
 
-网站会自动把星号作者加粗，把星号显示为作者完整姓名后的上标，并在论文作者行下方显示 `* Equal contribution.`。Publications 页面和首页 Recent Papers 使用同一个论文模板，所以两处会同时生效。
+网站会自动把第一作者加粗；带星号的作者也会加粗，星号会显示为作者完整姓名后的上标，并在论文作者行下方显示 `* Equal contribution.`。Publications 页面和首页 Recent Papers 使用同一个论文模板，所以两处会同时生效。
 
 当前 Publications 页的筛选按钮在 `_pages/publications.md`：
 
