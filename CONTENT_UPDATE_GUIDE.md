@@ -104,6 +104,13 @@ Your news content here.
 - 如果没有项目页或 PDF，可以删掉 `website` 或 `pdf` 字段。
 - `tags` 用逗号分隔。如果新增了新的 tag，也要同步更新 `_pages/publications.md` 里的筛选按钮。
 - `abbr` 是会议/期刊短名，例如 `ECCV`、`CVPR`、`ICCV`、`Arxiv`。
+- 如果需要标注 equal contribution，在作者名后加 `*`。推荐写法是 `Last, First*`，例如：
+
+```bibtex
+author={Wang, Ziyi* and Wang, Xinshun* and Liu, Mengyuan}
+```
+
+网站会自动把星号显示为作者完整姓名后的上标，并在论文作者行下方显示 `* Equal contribution.`。Publications 页面和首页 Recent Papers 使用同一个论文模板，所以两处会同时生效。
 
 当前 Publications 页的筛选按钮在 `_pages/publications.md`：
 
