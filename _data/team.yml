@@ -3,119 +3,119 @@
   role: "Principal Investigator"
   image: "../assets/team/mengyuan-liu.png"
   link: "https://www.ece.pku.edu.cn/info/1046/2596.htm"
-  affiliation: "PKU Shenzhen"
+  affiliation: ""
 
 # Postdoctoral Researchers
 - name: "Yuxuan Li"
   role: "Postdoctoral Researchers"
   image: "../assets/team/liyuxuan.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: ""
 
 # Ph.D. Students
 - name: "Xinshun Wang"
   role: "Ph.D. Students"
   image: "../assets/team/wangxinshun.png"
   link: "https://scholar.google.com/citations?user=NflmfmEAAAAJ&hl=en"
-  affiliation: "PKU Shenzhen"
+  affiliation: "Third-Year"
 
 - name: "Juyi Sheng"
   role: "Ph.D. Students"
   image: "../assets/team/shengjuyi.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Third-Year"
 
-# M.S. Students
 - name: "Ziyi Wang"
-  role: "M.S. Students"
+  role: "Ph.D. Students"
   image: "../assets/team/wangziyi.jpg"
   link: https://wangzy01.github.io
-  affiliation: "PKU Shenzhen"
+  affiliation: "Third-Year"
 
+# M.S. Students
 - name: "Peiming Li"
   role: "M.S. Students"
   image: "../assets/team/lipeiming.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Third-Year"
 
 - name: "Yangting Lin"
   role: "M.S. Students"
   image: "../assets/team/linyangting.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Third-Year"
 
 - name: "Yutian Zhang"
   role: "M.S. Students"
   image: "../assets/team/zhangyutian.png"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Second-Year"
 
 - name: "Jiaying Lin"
   role: "M.S. Students"
   image: "../assets/team/linjiaying.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Second-Year"
 
 - name: "Jianian Gong"
   role: "M.S. Students"
   image: "../assets/team/gongjianian.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Second-Year"
 
 - name: "Tianming Xu"
   role: "M.S. Students"
   image: "../assets/team/xutianming.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "Second-Year"
 
 - name: "Jianyu Zhang"
   role: "M.S. Students"
   image: "../assets/team/zhangjianyu.png"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "First-Year"
 
 - name: "Jincheng Li"
   role: "M.S. Students"
   image: "../assets/team/lijincheng.png"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "First-Year"
 
 - name: "Jiale Li"
   role: "M.S. Students"
   image: "../assets/team/lijiale.png"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "First-Year"
 
 - name: "Zhicheng Liao"
   role: "M.S. Students"
   image: "../assets/team/liaozhicheng.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "First-Year"
 
 - name: "Mingjie Zhang"
   role: "M.S. Students"
   image: "../assets/team/zhangmingjie.jpg"
   link: false
-  affiliation: "PKU Shenzhen"
+  affiliation: "First-Year"
 
 # Visiting Students and Scholars
 - name: "Kefan Chen"
   role: "Visiting Students and Scholars"
   image: "../assets/team/chenkefan.jpg"
   link: false
-  affiliation: "Chongqing University of Technology"
+  affiliation: "Third-Year"
 
 - name: "Chao Yuan"
   role: "Visiting Students and Scholars"
   image: "../assets/team/yuanchao.jpg"
   link: false
-  affiliation: "Chongqing University of Technology"
+  affiliation: "Second-Year"
 
 - name: "Yulei Yang"
   role: "Visiting Students and Scholars"
   image: "../assets/team/yangyulei.jpg"
   link: false
-  affiliation: "Chongqing University of Technology"
+  affiliation: "First-Year"
 
 # Alumni
 - name: "Jiajie Liu"
