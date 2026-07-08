@@ -8,9 +8,9 @@ nav_order: 9
 
 <div style="display: grid; gap: 24px; margin-top: 1rem;">
   <div style="border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-    <h3 style="margin-top: 0; margin-bottom: 12px;">毕业生合照</h3>
+    <h3 style="margin-top: 0; margin-bottom: 12px;">Graduation Photo</h3>
     <div style="display: grid; gap: 12px;">
-      <img src="{{ '/assets/img/gallery/cvpr2026-placeholder.svg' | relative_url }}" alt="毕业生合照" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="{{ '/assets/team/Graduation.jpg' | relative_url }}" alt="Graduation Photo" style="width: 100%; height: auto; border-radius: 8px;">
     </div>
   </div>
 
