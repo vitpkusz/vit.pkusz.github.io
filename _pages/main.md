@@ -231,4 +231,70 @@ highlighted_projects:
 {% include news.liquid %}
 <!-- ============================================ -->
 
-{% include recent_publications.liquid %}
+<!-- ============================================ -->
+<!-- Research Directions -->
+<h2>Research Directions</h2>
+
+<style>
+  .rd-grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .rd-grid { grid-template-columns: 1fr 1fr; } }
+  .rd-card { background: var(--global-card-bg-color); border-radius: 12px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+  .rd-subgrid { display: grid; gap: 12px; grid-template-columns: 1fr; }
+  @media (min-width: 700px) { .rd-subgrid { grid-template-columns: repeat(3, 1fr); } }
+  .rd-item img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; display: block; }
+  .rd-item h4 { margin: 8px 0 6px 0; }
+  .rd-item p { margin: 0; color: var(--global-text-muted); font-size: 0.95rem; }
+</style>
+
+<div class="rd-grid">
+  <div class="rd-card">
+    <h3>Research Direction 1: Open-world Human and Object Search</h3>
+    <p>This direction focuses on enabling intelligent agents to perceive, search for, and understand humans and objects in complex open-world environments. It emphasizes long-term memory, privacy-aware human sensing, language-guided search, and open-vocabulary perception, allowing AI systems and embodied agents to identify targets beyond predefined categories and operate reliably in dynamic real-world scenarios.</p>
+
+    <div class="rd-subgrid" style="margin-top:12px;">
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/Ultra-long Video Memory Update and Retrieval.png' | relative_url }}" alt="Ultra-long Video Memory Update and Retrieval">
+        <h4>Ultra-long Video Memory Update and Retrieval</h4>
+        <p>This sub-direction studies how AI systems can continuously build, update, and retrieve memories from ultra-long video streams. By modeling long-term temporal context, hierarchical memory structures, and efficient retrieval mechanisms, agents can recall relevant events, understand long-duration activities, and reason over extended visual histories.</p>
+      </div>
+
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/Privacy-Preserving Human Sensing.png' | relative_url }}" alt="Privacy-Preserving Human Sensing">
+        <h4>Privacy-Preserving Human Sensing</h4>
+        <p>This sub-direction aims to perceive human behaviors, activities, and states while protecting personal privacy. Instead of relying on identity-sensitive raw visual information, it explores privacy-friendly representations such as skeleton poses, depth silhouettes, thermal maps, point clouds, and anonymized features for reliable human understanding.</p>
+      </div>
+
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/Text-based Novel Object Search.png' | relative_url }}" alt="Text-based Novel Object Search">
+        <h4>Text-based Novel Object Search</h4>
+        <p>This sub-direction explores how embodied agents can search for unknown or unseen objects based on natural language descriptions. By combining vision-language grounding, open-vocabulary perception, semantic attribute reasoning, and active exploration, robots can locate novel objects in complex environments even when the object category has not been predefined.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="rd-card">
+    <h3>Research Direction 2: Generalizable Embodied Manipulation</h3>
+    <p>This direction focuses on developing embodied agents that can flexibly manipulate diverse objects and accomplish novel tasks across different environments. It emphasizes 3D affordance understanding, task generalization, skill composition, and continual learning from demonstrations, enabling robots to adapt their manipulation policies to unseen objects, scenes, and task requirements.</p>
+
+    <div class="rd-subgrid" style="margin-top:12px;">
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/3D Affordance Estimation for Unknown Objects.png' | relative_url }}" alt="3D Affordance Estimation">
+        <h4>3D Affordance Estimation for Unknown Objects</h4>
+        <p>This sub-direction studies how robots can infer actionable functional regions of unknown objects from 3D observations. By understanding geometric structures and object affordances such as grasping, pouring, supporting, opening, and containing, robots can interact with unfamiliar objects without relying on fixed category labels or prior object models.</p>
+      </div>
+
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/Embodied Manipulation for Generalizable Tasks.png' | relative_url }}" alt="Embodied Manipulation for Generalizable Tasks">
+        <h4>Embodied Manipulation for Generalizable Tasks</h4>
+        <p>This sub-direction aims to build manipulation policies that generalize across objects, scenes, and task goals. Through multimodal perception, language-conditioned task understanding, skill composition, and long-horizon planning, robots can perform diverse manipulation tasks in unseen environments with improved robustness and flexibility.</p>
+      </div>
+
+      <div class="rd-item">
+        <img src="{{ '/assets/img/ResearchDirections/Incremental Manipulation from Human Demonstrations.png' | relative_url }}" alt="Incremental Manipulation from Human Demonstrations">
+        <h4>Incremental Manipulation from Human Demonstrations</h4>
+        <p>This sub-direction investigates how robots can continuously improve their manipulation abilities by learning from human demonstrations. Instead of relying on a fixed training dataset, robots incrementally acquire new skills, update policies, mitigate forgetting, and improve task performance over time through demonstration-driven and human-in-the-loop learning.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
