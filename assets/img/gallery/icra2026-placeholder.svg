@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  <rect x="40" y="40" width="1120" height="720" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="3"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" fill="#111827">ICRA2026</text>
+  <text x="600" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#6b7280">请将真实照片替换到此位置</text>
+</svg>
