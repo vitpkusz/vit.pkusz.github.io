@@ -29,7 +29,7 @@
 - name: "Ziyi Wang"
   role: "M.S. Students"
   image: "../assets/team/wangziyi.jpg"
-  link: false
+  link: https://wangzy01.github.io
   affiliation: "PKU Shenzhen"
 
 - name: "Peiming Li"
