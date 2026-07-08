@@ -53,7 +53,7 @@
 - name: "Jiaying Lin"
   role: "M.S. Students"
   image: "../assets/team/linjiaying.jpg"
-  link: false
+  link: "https://scholar.google.com/citations?user=kU4rtNQAAAAJ&hl=en"
   affiliation: "Second-Year"
 
 - name: "Jianian Gong"
