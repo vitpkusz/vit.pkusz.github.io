@@ -34,4 +34,11 @@ nav_order: 9
       <img src="{{ '/assets/team/zhangyutian_icra.jpg' | relative_url }}" alt="ICRA2026 photo" loading="lazy">
     </div>
   </div>
+
+  <div class="gallery-item">
+    <h3>NeurIPS2023</h3>
+    <div>
+      <img src="{{ '/assets/team/fangzhongbin_neurips23.jpg' | relative_url }}" alt="NeurIPS2023 photo" loading="lazy">
+    </div>
+  </div>
 </div>
